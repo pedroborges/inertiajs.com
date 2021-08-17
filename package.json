@@ -5,20 +5,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.27",
-    "@emotion/core": "^10.0.35",
+    "@emotion/babel-preset-css-prop": "^10.2.1",
+    "@emotion/core": "^10.1.1",
     "@fullhuman/postcss-purgecss": "^1.2.0",
-    "@mdx-js/loader": "^1.6.16",
-    "@next/mdx": "^9.5.2",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^9.5.5",
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.8.6",
     "dedent-js": "^1.0.1",
     "mousetrap": "^1.6.5",
-    "next": "^9.5.2",
+    "next": "^9.5.5",
     "postcss-nested": "^4.2.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-syntax-highlighter": "^12.2.1",
-    "tailwindcss": "^1.6.3"
+    "tailwindcss": "^1.9.6"
   }
 }
