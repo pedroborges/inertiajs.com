@@ -16,7 +16,7 @@ const getCurrentCodeTab = (tabType) => {
   return param ? param.toLowerCase() : localStorage.getItem('tab.' + tabType)
 }
 
-export default function Layout({ meta, children }) {
+const Layout = ({ meta, children }) => {
   const mobileNav = useRef(null)
   const [showMobileNav, setShowMobileNav] = useState(false)
 
@@ -335,3 +335,5 @@ export default function Layout({ meta, children }) {
     </html>
   )
 }
+
+export default Layout

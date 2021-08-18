@@ -10,8 +10,8 @@ function kebabCase(str) {
 }
 
 export default {
-  h1: props => <h1 {...props} className="mb-12 text-4xl font-bold text-gray-700 leading-none" />,
-  h2: props => {
+  h1: (props) => <h1 {...props} className="mb-12 text-4xl font-bold text-gray-700 leading-none" />,
+  h2: (props) => {
     return props.className ? (
       <h2 {...props} />
     ) : (
@@ -22,15 +22,15 @@ export default {
       />
     )
   },
-  h3: props => (
+  h3: (props) => (
     <h3 id={kebabCase(props.children)} className="mt-16 mb-4 text-xl font-bold text-gray-700 leading-none" {...props} />
   ),
-  p: props => <p className="my-6" {...props} />,
-  ol: props => <ol className="pl-8 list-decimal" {...props} />,
-  ul: props => <ul className="pl-8 list-disc" {...props} />,
-  li: props => <li className="my-1" {...props} />,
-  strong: props => <strong className="font-bold text-gray-700" {...props} />,
-  a: props => {
+  p: (props) => <p className="my-6" {...props} />,
+  ol: (props) => <ol className="pl-8 list-decimal" {...props} />,
+  ul: (props) => <ul className="pl-8 list-disc" {...props} />,
+  li: (props) => <li className="my-1" {...props} />,
+  strong: (props) => <strong className="font-bold text-gray-700" {...props} />,
+  a: (props) => {
     return props.className ? (
       <a {...props} />
     ) : (
@@ -47,6 +47,6 @@ export default {
       children={children}
     />
   ),
-  TabbedCodeExamples: props => <TabbedCodeExamples className="my-8 rounded overflow-hidden" {...props} />,
-  inlineCode: props => <code className="font-mono text-sm bg-gray-200 rounded p-1 whitespace-no-wrap" {...props} />,
+  TabbedCodeExamples: (props) => <TabbedCodeExamples className="my-8 rounded overflow-hidden" {...props} />,
+  inlineCode: (props) => <code className="font-mono text-sm bg-gray-200 rounded p-1 whitespace-no-wrap" {...props} />,
 }
