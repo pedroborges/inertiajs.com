@@ -5,20 +5,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.27",
-    "@emotion/core": "^10.0.35",
-    "@fullhuman/postcss-purgecss": "^1.2.0",
-    "@mdx-js/loader": "^1.6.16",
-    "@next/mdx": "^9.5.2",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.1",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^11.1.0",
     "@zeit/next-css": "^1.0.1",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.3.1",
     "dedent-js": "^1.0.1",
     "mousetrap": "^1.6.5",
-    "next": "^9.5.2",
-    "postcss-nested": "^4.2.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-syntax-highlighter": "^12.2.1",
-    "tailwindcss": "^1.6.3"
+    "next": "^11.1.0",
+    "postcss-nested": "^5.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-syntax-highlighter": "^15.4.4",
+    "tailwindcss": "^2.2.7"
   }
 }
